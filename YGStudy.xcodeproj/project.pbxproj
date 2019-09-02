@@ -13,6 +13,8 @@
 		78774928231D4A7C001D99AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78774927231D4A7C001D99AC /* Assets.xcassets */; };
 		7877492B231D4A7C001D99AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78774929231D4A7C001D99AC /* LaunchScreen.storyboard */; };
 		7877492E231D4A7C001D99AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877492D231D4A7C001D99AC /* main.m */; };
+		78774937231D50BF001D99AC /* YGMessageForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78774936231D50BF001D99AC /* YGMessageForwardViewController.m */; };
+		7877493A231D55A4001D99AC /* YGMessageForwardObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78774939231D55A4001D99AC /* YGMessageForwardObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7877492A231D4A7C001D99AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7877492C231D4A7C001D99AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7877492D231D4A7C001D99AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78774935231D50BF001D99AC /* YGMessageForwardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessageForwardViewController.h; sourceTree = "<group>"; };
+		78774936231D50BF001D99AC /* YGMessageForwardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageForwardViewController.m; sourceTree = "<group>"; };
+		78774938231D55A4001D99AC /* YGMessageForwardObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessageForwardObject.h; sourceTree = "<group>"; };
+		78774939231D55A4001D99AC /* YGMessageForwardObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageForwardObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		7877491D231D4A7B001D99AC /* YGStudy */ = {
 			isa = PBXGroup;
 			children = (
+				78774934231D4ACD001D99AC /* 方法转发 */,
 				7877491E231D4A7B001D99AC /* AppDelegate.h */,
 				7877491F231D4A7B001D99AC /* AppDelegate.m */,
 				78774921231D4A7B001D99AC /* ViewController.h */,
@@ -69,6 +76,17 @@
 				7877492D231D4A7C001D99AC /* main.m */,
 			);
 			path = YGStudy;
+			sourceTree = "<group>";
+		};
+		78774934231D4ACD001D99AC /* 方法转发 */ = {
+			isa = PBXGroup;
+			children = (
+				78774935231D50BF001D99AC /* YGMessageForwardViewController.h */,
+				78774936231D50BF001D99AC /* YGMessageForwardViewController.m */,
+				78774938231D55A4001D99AC /* YGMessageForwardObject.h */,
+				78774939231D55A4001D99AC /* YGMessageForwardObject.m */,
+			);
+			name = "方法转发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78774937231D50BF001D99AC /* YGMessageForwardViewController.m in Sources */,
 				78774923231D4A7B001D99AC /* ViewController.m in Sources */,
 				7877492E231D4A7C001D99AC /* main.m in Sources */,
 				78774920231D4A7B001D99AC /* AppDelegate.m in Sources */,
+				7877493A231D55A4001D99AC /* YGMessageForwardObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

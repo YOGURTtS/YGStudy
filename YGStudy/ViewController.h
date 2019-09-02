@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@interface YGClassModel : NSObject
+
+@property (nonatomic, copy) NSString *title;
+
+@property (nonatomic, strong) Class clazz;
+
+@end
+
 @interface ViewController : UIViewController
 
 
