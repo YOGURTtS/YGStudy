@@ -15,6 +15,7 @@
 		7877492E231D4A7C001D99AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877492D231D4A7C001D99AC /* main.m */; };
 		78774937231D50BF001D99AC /* YGMessageForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78774936231D50BF001D99AC /* YGMessageForwardViewController.m */; };
 		7877493A231D55A4001D99AC /* YGMessageForwardObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78774939231D55A4001D99AC /* YGMessageForwardObject.m */; };
+		7877493D231E988B001D99AC /* YGForwardingTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877493C231E988B001D99AC /* YGForwardingTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		78774936231D50BF001D99AC /* YGMessageForwardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageForwardViewController.m; sourceTree = "<group>"; };
 		78774938231D55A4001D99AC /* YGMessageForwardObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessageForwardObject.h; sourceTree = "<group>"; };
 		78774939231D55A4001D99AC /* YGMessageForwardObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageForwardObject.m; sourceTree = "<group>"; };
+		7877493B231E988B001D99AC /* YGForwardingTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGForwardingTarget.h; sourceTree = "<group>"; };
+		7877493C231E988B001D99AC /* YGForwardingTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGForwardingTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				78774936231D50BF001D99AC /* YGMessageForwardViewController.m */,
 				78774938231D55A4001D99AC /* YGMessageForwardObject.h */,
 				78774939231D55A4001D99AC /* YGMessageForwardObject.m */,
+				7877493B231E988B001D99AC /* YGForwardingTarget.h */,
+				7877493C231E988B001D99AC /* YGForwardingTarget.m */,
 			);
 			name = "方法转发";
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78774937231D50BF001D99AC /* YGMessageForwardViewController.m in Sources */,
+				7877493D231E988B001D99AC /* YGForwardingTarget.m in Sources */,
 				78774923231D4A7B001D99AC /* ViewController.m in Sources */,
 				7877492E231D4A7C001D99AC /* main.m in Sources */,
 				78774920231D4A7B001D99AC /* AppDelegate.m in Sources */,
