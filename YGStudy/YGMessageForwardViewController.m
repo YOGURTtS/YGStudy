@@ -26,6 +26,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     YGMessageForwardObject *obj = [YGMessageForwardObject new];
     [obj haha];
+//    [YGMessageForwardObject haha];
 }
 
 

@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)haha;
 
++ (void)haha;
+
 @end
 
 NS_ASSUME_NONNULL_END
